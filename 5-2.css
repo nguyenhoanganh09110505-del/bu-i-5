@@ -1,0 +1,16 @@
+ul {
+    list-style: none;
+    padding: 0;
+    width: 700px;
+}
+
+li {
+    background-color: rgb(183, 178, 178);
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: rgb(64, 63, 63);
+}
