@@ -1,0 +1,192 @@
+body {
+    background-color: #222;
+    font-family: Arial;
+}
+
+.card {
+    width: 450px;
+    margin: 50px auto;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.view {
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    padding: 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.eye {
+    width: 45px;
+    height: 45px;
+
+    background-color: orange;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye i {
+    color: white;
+    font-size: 24px;
+}
+
+.title {
+    background-color: white;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.card2 {
+    width: 500px;
+    height: 550px;
+    position: relative;
+    margin: 50px auto;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.card2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    background-color: orangered;
+    color: white;
+
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.menu {
+    position: absolute;
+    top: 80px;
+    right: 25px;
+}
+
+.setting {
+    background-color: orangered;
+    color: white;
+
+    width: 60px;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.item {
+    width: 55px;
+    height: 55px;
+
+    border: 2px solid white;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.content2 {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+    color: white;
+}
+
+.content2 h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.content2 p {
+    font-size: 18px;
+}
+
+.card3 {
+    width: 350px;
+    height: 550px;
+
+    position: relative;
+    margin: 50px auto;
+
+    border: 2px solid white;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.card3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 50%;
+
+    background: linear-gradient(
+        transparent,
+        rgba(0,0,0.9)
+    );
+}
+
+.content3 {
+    position: absolute;
+
+    left: 30px;
+    bottom: 30px;
+
+    color: white;
+}
+
+.content3 h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.content3 p {
+    width: 280px;
+    font-size: 17px;
+}
+
+.content3 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
